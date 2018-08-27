@@ -1,0 +1,237 @@
+/* 起始页 */
+
+header{
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #01071f;
+}
+header img{
+    width: 34px;
+    height: 34px;
+    float: left;
+    margin: 10px 22px 0 68px;
+}
+header p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 54px;
+}
+header video{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 304px;
+    height: 180px;
+    z-index: 99;
+}
+.start_page{
+    width: 100%;
+    height: 100%;
+}
+.audio_music{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+/* 起始页 */
+
+/* 首页START */
+
+.index_wrap{
+    width: 100%;
+    height: 100%;
+    background: url(../images/index_bg.png) no-repeat;
+    background-position: center;
+    background-size: 1920px 1080px;
+}
+.index_nav{
+    width: 744px;
+    height: auto;
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    margin-left: -372px;
+}
+.index_nav a img{
+    float: left;
+    width: 177px;
+    height: auto;
+}
+.index_nav a:nth-child(2) img{
+    float: right;
+    width: 390px;
+    height: auto;
+}
+.index_tit{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+/* 首页END */
+
+/* 二级START */
+
+.management_wrap{
+    width: 100%;
+    height: 100%;
+    background: url(../images/management_bg.png) no-repeat;
+    background-position: center;
+    background-size: 1920px 1080px;
+}
+.manage_title{
+    padding: 60px 0 0 64px;
+    height: 110px;
+    width: auto;
+}
+.management_list{
+    margin: 4% 0 0 64px;
+}
+.management_list img{
+    height: 104px;
+    width: auto;
+    margin-bottom: 3%;
+}
+
+/* 二级END */
+
+/* 三级页START */
+
+.intelligent_wrap{
+    width: 100%;
+    height: 100%;
+    background: url(../images/management_bg.png) no-repeat;
+    background-position: center;
+    background-size: 1920px 1080px;
+}
+.intelligent_fir_tit{
+    height: 110px;
+    width: auto;
+    padding: 60px 0 0 64px;
+}
+.intelligent_sec_tit{
+    height: 110px;
+    width: auto;
+    margin: -20px 0 0 42px;
+}
+
+/* 三级页END */
+
+/* 节能页START */
+
+.energy_wrap{
+    background: url(../images/energy_bg.png) no-repeat;
+    background-size: 1920px 1080px;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.energy_list1{
+    margin: 10px 0 0 64px;
+}
+.energy_list1 img{
+    height: 95px;
+    width: auto;
+}
+
+/* 节能页END */
+
+/* 能量路由页START */
+
+.router_list{
+    margin: 10px 0 0 64px;
+}
+.router_list img{
+    height: 95px;
+    width: auto;
+    margin-top: 2%;
+}
+
+/* 能量路由页END */
+
+/* 视频START */
+
+.video_wrap{
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+.smart_video{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.smart_video source{
+    width: 100%;
+    height: 100%;
+}
+.video_back{
+    width: 30%;
+    height: 110px;
+    display: block;
+    float: left;
+}
+.controls_btn{
+    width: 54px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+}
+.controls_btn img{
+    width: 38px;
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+}
+.controls_btn p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.video_control{
+    position: fixed;
+    top: 78px;
+    left: 0;
+    width: 100%;
+}
+
+/* 视频END */
+
+/* 能量路由START */
+
+.router_wrap{
+    width: 100%;
+    height: 100%;
+    background: url(../images/management_bg.png) no-repeat;
+    background-position: center;
+    background-size: 1920px 1080px;
+}
+
+/* 能量路由END */
+
+/* 智慧水务能源解决方案start */
+
+.plant_wrap{
+    width: 100%;
+    height: 100%;
+    background: url(../images/plant_bg.png) no-repeat;
+    background-position: center;
+    background-size: 1920px 1080px;
+}
+.plant_list{
+    margin: 10px 0 0 64px;
+}
+.plant_list img{
+    height: 104px;
+    width: auto;
+    margin-top: 2%;
+}
+
+/* 智慧水务能源解决方案end */

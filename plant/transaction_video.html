@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/common.js"></script>
+</head>
+<body>
+    <div class="video_wrap">
+        <video class="smart_video" autoplay muted="false" onended="videoStatus()">
+            <source src="http://10.12.50.103/0340.mp4" type="video/mp4">
+        </video>
+        <div class="video_control">
+            <div class="controls_btn" id="controls_btn" onclick="controls(this)">
+                <img src="../images/pause.png" alt="">
+                <p>暂停</p>
+            </div>
+            <a href="plant.html" class="video_back"></a>
+            <p class="clear"></p>
+        </div>
+    </div>
+</body>
+</html>
