@@ -126,19 +126,20 @@ function getIPs(callback){
 
 //insert IP addresses into the page
 getIPs(function(ip){
-    const video = document.getElementsByTagName('source')[0];
-    const baseUrl = 'http://newvideo.gwinnogy.com:8080/';
+    const videoWrap = document.getElementById('smart_video');
+    const videoName = videoWrap.getAttribute('videoName');
+    const firBaseUrl = 'http://newvideo.gwinnogy.com:8080/';
+    const secBaseUrl = 'http://10.12.50.103/';
 
     //local IPs
-    if(video){
+    if(videoWrap){
         if (ip.match(/^(192\.168\.|169\.254\.|10\.|172\.(1[6-9]|2\d|3[01]))/)){
             ip = ip.split('.');
 
             if(ip[0] != '10' && ip[1] != '76'){
-                const videoLink = video.getAttribute('src');
-                const link = videoLink.substr(-8);
-
-                video.setAttribute('src', baseUrl+link);
+                videoWrap.innerHTML = '<video class="smart_video" autoplay muted="false" onended="videoStatus()"><source src="'+firBaseUrl+'0212.mp4" type="video/mp4">';
+            }else{
+                videoWrap.innerHTML = '<video class="smart_video" autoplay muted="false" onended="videoStatus()"><source src="'+secBaseUrl+'0212.mp4" type="video/mp4">';
             }
         }
     }
